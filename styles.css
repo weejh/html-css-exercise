@@ -5,6 +5,16 @@ body {
   font-family: sans-serif;
 }
 
+form {
+  border-top: 3px solid #4285f4;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  width: auto;
+  height: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+}
 h1 {
   font-size: 30px;
   color: #4285f4;
@@ -14,6 +24,8 @@ h1 {
 .instruction {
   font-size: 15px;
   color: red;
+  margin-left: 15px;
+  margin-bottom: 50px;
 }
 
 span{
@@ -25,38 +37,46 @@ span{
   font-size: 15px;
   margin-top: 30px;
   color: #4285f4;
+  margin-left: 15px;
+}
+input[name="inputname"] {
+  width: 150px;
+  height: 20px;
 }
 
 .inputdate {
   font-size: 15px;
   margin-top: 30px;
   color: #4285f4;
+  margin-left: 15px;
 }
-
-
 .inputtopic {
   font-size: 15px;
   margin-top: 30px;
+  margin-left: 15px;
 }
-
 .inputmaterial {
   font-size: 15px;
   margin-top: 30px;
+  margin-left: 15px;
 }
 
 .inputfeel {
   font-size: 15px;
   margin-top: 30px;
+  margin-left: 15px;
 }
 
 .inputshare {
   font-size: 15px;
   margin-top: 30px;
+  margin-left: 15px;
 }
-.ratingmaterial {
+.ratingmaterial, .ratingfeel {
   font-size: 15px;
   margin-left: 150px;
-
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 button {
   margin-top: 30px;
@@ -65,17 +85,47 @@ button {
   width: 66px;
   height: 34px;
   border-radius: 5px;
-
+  margin-left: 15px;
+  margin-bottom: 5px;
 }
+
 .inputquestions {
   color: #4285f4;
   margin-bottom: 5px;
 }
-.textbox {
-  width: 350px;
-  height: 100px;
+
+.inputquestionsradio {
+  color: #4285f4;
+  margin-bottom: 60px;
 }
-hr {
-  width: 200px;
-  text-align: right;
+.textbox {
+  width: 450px;
+  height: 120px;
+}
+.answerfell,  .answermaterial {
+  border-bottom: 1px solid #DADADA;
+  border-top: 1px solid #DADADA;
+  height: 25px;
+  padding-top: 5px;
+}
+.answermaterial {
+    width: 450px;
+    height: 25px;
+    padding-top: 5px;
+  }
+.answerfell {
+    width: 250px;
+}
+.securitywarning {
+  font-size: 15px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+input[type='radio']::before {
+  content: attr(value);
+  position: relative;
+  top: -45px;
+  font-size: 15px;
 }
