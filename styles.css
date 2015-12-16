@@ -1,0 +1,81 @@
+body {
+  font-size: 0px;
+  padding: 0px;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  color: #4285f4;
+  text-align: center;
+}
+
+.instruction {
+  font-size: 15px;
+  color: red;
+}
+
+span{
+  font-size: 15px;
+  color: red;
+}
+
+.inputname {
+  font-size: 15px;
+  margin-top: 30px;
+  color: #4285f4;
+}
+
+.inputdate {
+  font-size: 15px;
+  margin-top: 30px;
+  color: #4285f4;
+}
+
+
+.inputtopic {
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.inputmaterial {
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.inputfeel {
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.inputshare {
+  font-size: 15px;
+  margin-top: 30px;
+}
+.ratingmaterial {
+  font-size: 15px;
+  margin-left: 150px;
+
+}
+button {
+  margin-top: 30px;
+  color: white;
+  background-color: #4285f4;
+  width: 66px;
+  height: 34px;
+  border-radius: 5px;
+
+}
+.inputquestions {
+  color: #4285f4;
+  margin-bottom: 5px;
+}
+.textbox {
+  width: 350px;
+  height: 100px;
+}
+hr {
+  width: 200px;
+  text-align: right;
+}

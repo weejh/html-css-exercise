@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <form>
+      <h1>WDI1 SG - Daily Exit Ticket</h1>
+        <div class='instruction'>
+          <span>*</span>Required
+        </div>
+        <div class='inputname'>
+          <label>
+            <div class='inputquestions'>Name<span>*</span></br></div>
+            <input type="text" name="inputname" value="Name" />
+          </label>
+        </div>
+        <div class='inputdate'>
+          <label>
+            <div class='inputquestions'>Date of lesson<span>*</span></br></div>
+            <input type="date" name="inputdate" value="Date" />
+          </label>
+        </div>
+        <div class='inputtopic'>
+          <label>
+            <div class='inputquestions'>Topics today</br></div>
+            if not sure, ask your instructor!</br>
+            <input class='textbox' type="text" name="inputname" value="" />
+          </label>
+        </div>
+        <div class='inputmaterial'>
+          <label>
+            <div class='inputquestions'>How comfortable are you with the material covered today?<span>*</span></div>
+            <div class='ratingmaterial'>1  2  3  4  5</div>
+            <hr>
+              Not comfortable at all
+              <input type="radio" name="inputmaterial" value="1" />
+              <input type="radio" name="inputmaterial" value="2" />
+              <input type="radio" name="inputmaterial" value="3" />
+              <input type="radio" name="inputmaterial" value="4" />
+              <input type="radio" name="inputmaterial" value="5" />
+              Extremely comfortable
+              <hr>
+          </label>
+        </div>
+        <div class='inputfeel'>
+          <label>
+            <div class='inputquestions'>How are you feeling today?<span>*</span></div>
+            <div class='ratingfeel'>1 2 3 4 5</div>
+            <hr>
+            Awful
+            <input type="radio" name="inputmaterial" value="1" />
+            <input type="radio" name="inputmaterial" value="2" />
+            <input type="radio" name="inputmaterial" value="3" />
+            <input type="radio" name="inputmaterial" value="4" />
+            <input type="radio" name="inputmaterial" value="5" />
+            Amazing
+            <hr>
+          </label>
+        </div>
+        <div class='inputshare'>
+          <div class='inputquestions'>Is there anything else you'd like to share?</div>
+          <div>
+            Feel free to give any feedback, let us know what you learned or if you might need any help for a specific topic/have any questions you want answered.
+          </div>
+          <!-- <textarea id='textbox' name="textarea" ></textarea> -->
+          <input class='textbox' type="text" name="inputname" value="" />
+          <!-- <input type="textarea" name="inputname" value="Feedback" /> -->
+          </label>
+        </div>
+        <button name="button">Submit</button>
+      </form>
+  </body>
+</html>
