@@ -1,0 +1,32 @@
+
+@media (orientation: landscape) {
+  body {
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Emoji_u1f609.svg/1024px-Emoji_u1f609.svg.png");
+      background-position: cover;
+      background-size: 50%;
+    }
+}
+
+@media (orientation: portrait) {
+  body {
+    background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Emoji_u1f437.svg/1024px-Emoji_u1f437.svg.png");
+    background-position: cover;
+    background-size: 50%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+  body {
+    background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Emoji_u1f600.svg/1024px-Emoji_u1f600.svg.png");
+    background-position: cover;
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+  body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Emoji_u1f604.svg/768px-Emoji_u1f604.svg.png");
+    background-position: cover;
+    background-size: 100%;
+  }
+}
