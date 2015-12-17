@@ -4,6 +4,8 @@
       background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Emoji_u1f609.svg/1024px-Emoji_u1f609.svg.png");
       background-position: cover;
       background-size: 50%;
+      width: 100%;
+      height: 100%;
     }
 }
 
@@ -12,6 +14,8 @@
     background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Emoji_u1f437.svg/1024px-Emoji_u1f437.svg.png");
     background-position: cover;
     background-size: 50%;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -20,6 +24,8 @@
     background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Emoji_u1f600.svg/1024px-Emoji_u1f600.svg.png");
     background-position: cover;
     background-size: 100%;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -28,5 +34,7 @@
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Emoji_u1f604.svg/768px-Emoji_u1f604.svg.png");
     background-position: cover;
     background-size: 100%;
+    width: 100%;
+    height: 100%;
   }
 }
