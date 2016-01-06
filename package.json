@@ -1,0 +1,26 @@
+{
+  "name": "build-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm run watch-css & npm run watch-html",
+    "watch-css": "watch-spawn -p '*.css' node server.js",
+    "watch-html": "watch-spawn -p '*.html' node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weejh/html-css-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weejh/html-css-exercise/issues"
+  },
+  "homepage": "https://github.com/weejh/html-css-exercise#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-history-api-fallback": "^2.0.0",
+    "watchify": "^3.6.1"
+  }
+}
